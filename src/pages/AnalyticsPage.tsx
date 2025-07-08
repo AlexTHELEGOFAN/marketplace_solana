@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Users, ShoppingBag, DollarSign, BarChart3, PieChart, Activity } from 'lucide-react';
+import { TrendingUp, Users, ShoppingBag, DollarSign, BarChart3, PieChart } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const AnalyticsPage: React.FC = () => {

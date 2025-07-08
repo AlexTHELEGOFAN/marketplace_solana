@@ -7,7 +7,7 @@ import ProductModal from '../components/ProductModal';
 import { Product } from '../contexts/MarketplaceContext';
 
 const MarketplacePage: React.FC = () => {
-  const { products, searchProducts, filterProducts } = useMarketplace();
+  const { products, searchProducts } = useMarketplace();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');

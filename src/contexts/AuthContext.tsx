@@ -39,13 +39,13 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     // Simulate wallet connection
     const mockUser: User = {
       id: '1',
-      username: 'crypto_trader',
-      email: 'trader@example.com',
+      username: 'Pierre Chartier',
+      email: 'pierre.chartier@gmail.com',
       walletAddress: '7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU',
       location: 'Paris, France',
       rating: 4.8,
       isAdmin: false,
-      avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200'
+      avatar: 'https://pbs.twimg.com/media/GoGGArEXkAA8mCZ.jpg'
     };
     
     setUser(mockUser);

@@ -52,9 +52,9 @@ const HomePage: React.FC = () => {
             className="text-center"
           >
             <h1 className="text-5xl md:text-7xl font-title font-bold text-white mb-6">
-              The Future of
+              The future of
               <span className="block bg-gradient-to-r from-cyan to-pink bg-clip-text text-transparent">
-                Decentralized Commerce
+                decentralized commerce
               </span>
             </h1>
             <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8 font-base">
@@ -66,14 +66,14 @@ const HomePage: React.FC = () => {
                 to="/marketplace"
                 className="bg-white text-primary px-8 py-4 rounded-lg font-base font-bold hover:bg-gray-50 transition-all duration-200 transform hover:scale-105 flex items-center justify-center space-x-2"
               >
-                <span>Explore Marketplace</span>
+                <span>Explore marketplace</span>
                 <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
                 to="/create-ad"
                 className="bg-white/10 text-white px-8 py-4 rounded-lg font-base font-bold hover:bg-white/20 transition-all duration-200 border border-white/20 flex items-center justify-center space-x-2"
               >
-                <span>List Your Item</span>
+                <span>List your item</span>
                 <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
@@ -121,7 +121,7 @@ const HomePage: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-title font-bold text-gray-900 mb-6">
-              Why Choose DeLeBon?
+              Why choose SolanCoin ?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto font-base">
               Experience the benefits of blockchain technology with our innovative marketplace platform
@@ -209,7 +209,7 @@ const HomePage: React.FC = () => {
               Ready to Start Trading?
             </h2>
             <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8 font-base">
-              Join thousands of users who trust DeLeBon for their decentralized commerce needs
+              Join thousands of users who trust SolanCoin for their decentralized commerce needs
             </p>
             <Link
               to="/create-ad"

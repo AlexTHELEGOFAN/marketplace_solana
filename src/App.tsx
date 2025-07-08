@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
@@ -34,7 +34,7 @@ function App() {
           <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4 neon-glow">
             <div className="w-8 h-8 bg-primary rounded-full pulse-animation"></div>
           </div>
-          <h1 className="text-3xl font-title font-bold text-white mb-2">DeLeBon</h1>
+          <h1 className="text-3xl font-title font-bold text-white mb-2">SolanCoin</h1>
           <p className="text-white/80 font-base">Decentralized Marketplace</p>
         </motion.div>
       </div>

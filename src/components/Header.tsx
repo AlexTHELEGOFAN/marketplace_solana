@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Search, User, Heart, ShoppingBag, Plus, BarChart3, Shield, Menu, X } from 'lucide-react';
+import { Search, User, ShoppingBag, Plus, BarChart3, Shield, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   const navigation = [
     { name: 'Home', href: '/', icon: ShoppingBag },
     { name: 'Marketplace', href: '/marketplace', icon: Search },
-    { name: 'Create Ad', href: '/create-ad', icon: Plus },
+    { name: 'Create ad', href: '/create-ad', icon: Plus },
     { name: 'Profile', href: '/profile', icon: User },
     { name: 'Analytics', href: '/analytics', icon: BarChart3 },
     ...(user?.isAdmin ? [{ name: 'Admin', href: '/admin', icon: Shield }] : [])
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
             <div className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded-lg flex items-center justify-center">
               <div className="w-4 h-4 bg-white rounded-full"></div>
             </div>
-            <span className="text-xl font-title font-bold text-gray-900">DeLeBon</span>
+            <span className="text-xl font-title font-bold text-gray-900">SolanCoin</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -60,7 +60,7 @@ const Header: React.FC = () => {
                 onClick={connectWallet}
                 className="bg-gradient-to-r from-primary to-secondary text-white px-6 py-2 rounded-lg font-base font-bold hover:shadow-lg transition-all duration-200 transform hover:scale-105"
               >
-                Connect Wallet
+                Connect wallet
               </button>
             ) : (
               <div className="flex items-center space-x-3">

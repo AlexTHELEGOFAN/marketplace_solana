@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Shield, Users, ShoppingBag, Flag, TrendingUp, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
+import { Shield, Users, ShoppingBag, Flag, TrendingUp, CheckCircle, XCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useAuth } from '../contexts/AuthContext';
 import { useMarketplace } from '../contexts/MarketplaceContext';
@@ -58,7 +58,7 @@ const AdminPage: React.FC = () => {
             Admin Dashboard
           </h1>
           <p className="text-xl text-gray-600 font-base">
-            Manage and monitor the DeLeBon marketplace
+            Manage and monitor the SolanCoin marketplace
           </p>
         </motion.div>
 

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Plus, X, Camera } from 'lucide-react';
+import { X, Camera } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useMarketplace } from '../contexts/MarketplaceContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -24,8 +24,8 @@ const CreateAdPage: React.FC = () => {
   });
 
   const categories = [
-    'Electronics', 'Music', 'Collectibles', 'Photography', 
-    'Fashion', 'Sports', 'Books', 'Art', 'Jewelry', 'Home'
+    'Electronics', 'Music', 'Collectibles', 'Food',
+    'Fashion', 'Sports', 'Books', 'Art', 'Jewelry', 'Wearable'
   ];
 
   const conditions = ['New', 'Like New', 'Excellent', 'Good', 'Fair', 'Poor'];
